@@ -47,3 +47,6 @@
 ## 참고 화면 (화질 별로임)
 ![reference img](https://user-images.githubusercontent.com/91083662/188213875-6a6669ed-0a86-4646-8018-58ca937a4d5d.jpg)
 
+
+## 사용한 CSV 파일 형식 
+[tree_data.csv](https://github.com/JunghoH/skyHjh/files/9480212/tree_data.csv)
