@@ -188,12 +188,7 @@
             	
             	//check sent value just checked data and I did sent another value setting hdRdOnly
             	$('input:checkbox[name="rdOnly"]').each(function(idx) {
-            		if ($(this).is(":checked") ){
-            			//$(this).val("off"); 
-            			$("input[name=hdRdOnly]:eq(" + idx + ")").val("1");
-            		} else {
-            			$("input[name=hdRdOnly]:eq(" + idx + ")").val("0");
-            		}
+                    $(this).is(":checked") ? $(this).val("1") : $(this).val("0");
             	});
             	$("#strDelId").val("");
             	$("#strDelId").val(tempId);
