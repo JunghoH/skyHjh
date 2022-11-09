@@ -122,7 +122,6 @@
 	                		delRowDbIds.push(tempDbIds[i].value);
 	                	}
                 	}
-                    //변경 test
                 	$("#memDiv").empty();
                 } else {
                     return;
@@ -172,7 +171,6 @@
             $("#dbList").click(function () {
             	if(confirm("Are you sure you want to serach of database?")){
                     $("#memDiv").empty();
-                    //변경 test
                     document.form.submit();
                 } else {
                     return;

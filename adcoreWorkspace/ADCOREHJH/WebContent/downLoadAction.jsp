@@ -13,7 +13,6 @@
 	        <%UserDao userDao = new UserDao();
 	        int successChk  = (int)userDao.listDownLoad();
 	         if (successChk == 1) {%>
-				//변경 test
 	         	alert("List file saved to D drive");
 	         <%} else {%> 
 	         	alert("false file downLoad");
