@@ -122,6 +122,7 @@
 	                		delRowDbIds.push(tempDbIds[i].value);
 	                	}
                 	}
+                    //변경 test
                 	$("#memDiv").empty();
                 } else {
                     return;
