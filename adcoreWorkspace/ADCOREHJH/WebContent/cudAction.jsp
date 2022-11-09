@@ -12,6 +12,7 @@
     	$("#document").ready(function(){
 	        <%UserDao userDao = new UserDao();
 	        int successChk  = (int)userDao.cudProcess(request);
+			//변경 test
 	         if (successChk == 1) {%>
 	         	alert("success cud action");
 	         <%} else {%> 
