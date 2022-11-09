@@ -85,8 +85,8 @@
             //delete row
             var delRowDbIds = [];
             $("#deleteTr").click(function () {
-                var chkObj    = document.getElementsByName("chk");
-                var tempDbIds = document.getElementsByName("dbId");
+                var chkObj    = $("[name=chk]");
+                var tempDbIds = $("[name=dbId]");
                 var chkLength = chkObj.length;
                 var checked   = 0;
                 for (var i = chkLength - 1; i >= 0; i--) {
