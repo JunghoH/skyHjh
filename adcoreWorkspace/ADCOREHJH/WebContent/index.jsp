@@ -114,7 +114,8 @@
             //all delete
             $("#deleteAll").click(function () {
                 if(confirm("Are you sure you want to delete all row?")){
-                	var tempDbIds  = document.getElementsByName("dbId");
+                	//버젼 체크
+                    var tempDbIds  = $("[name=dbId]");
                 	for (var i = 0; i < tempDbIds.length; i++){
 	                	//db saved Id to keep 
 	                	if (tempDbIds[i].value != undefined && tempDbIds[i].value != null){
