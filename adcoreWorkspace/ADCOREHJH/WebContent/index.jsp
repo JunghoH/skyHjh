@@ -180,16 +180,10 @@
             $("#saveTr").click(function () {
             	//document.getElementById("strDelId").vlue = "DOM";
           		
-            	//delete db_id setting to String
+                //delete db_id setting to String
+                var tempId = "";
             	if (delRowDbIds.length > 0) {
-            		var tempId = "";
-            		for (var i = 0; i < delRowDbIds.length; i++){
-            			if (tempId == "") {
-            				tempId = delRowDbIds[i];
-            			} else {
-            				tempId += ",'" + delRowDbIds[i];
-            			}
-                	}
+                    tempId = delRowDbIds.join(",'");
             	}
             	
             	//check sent value just checked data and I did sent another value setting hdRdOnly
