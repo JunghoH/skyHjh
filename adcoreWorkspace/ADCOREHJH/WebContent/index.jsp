@@ -85,8 +85,8 @@
             //delete row
             var delRowDbIds = [];
             $("#deleteTr").click(function () {
-                var chkObj    = document.getElementsByName("chk");
-                var tempDbIds = document.getElementsByName("dbId");
+                var chkObj    = $("[name=chk]");
+                var tempDbIds = $("[name=dbId]");
                 var chkLength = chkObj.length;
                 var checked   = 0;
                 for (var i = chkLength - 1; i >= 0; i--) {
@@ -114,7 +114,7 @@
             //all delete
             $("#deleteAll").click(function () {
                 if(confirm("Are you sure you want to delete all row?")){
-                	var tempDbIds  = document.getElementsByName("dbId");
+                	var tempDbIds  = $("[name=dbId]");
                 	for (var i = 0; i < tempDbIds.length; i++){
 	                	//db saved Id to keep 
 	                	if (tempDbIds[i].value != undefined && tempDbIds[i].value != null){
