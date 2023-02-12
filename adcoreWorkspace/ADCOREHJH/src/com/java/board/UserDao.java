@@ -24,6 +24,7 @@ public class UserDao {
 	public UserDao(){
 		try {
 			dbURL = "jdbc:mysql://localhost:3306/HJH";
+			System.out.println("git test 02");
 			dbID  = "root";
 			System.out.println("git test");
 			dbPassword = "root";
