@@ -15,7 +15,7 @@
 	         if (successChk == 1) {%>
 	         	alert("List file saved to D drive 67890");
 	         <%} else {%> 
-	         	alert("false file downLoad");
+	         	alert("false file downLoad 67890");
 	         <%}%>
 	         //opener.location.reload();
 	         self.close();
