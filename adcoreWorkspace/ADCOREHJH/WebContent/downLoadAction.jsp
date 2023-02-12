@@ -17,7 +17,7 @@
 	         <%} else {%> 
 	         	alert("false file downLoad 67890");
 	         <%}%>
-	         //opener.location.reload();
+	         //opener.location.reload(); 67890 hiden
 	         self.close();
         });
     </script>
