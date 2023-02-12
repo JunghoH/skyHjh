@@ -13,7 +13,7 @@
 	        <%UserDao userDao = new UserDao();
 	        int successChk  = (int)userDao.listDownLoad();
 	         if (successChk == 1) {%>
-	         	alert("List file saved to D drive");
+	         	alert("List file saved to D drive 12345");
 	         <%} else {%> 
 	         	alert("false file downLoad");
 	         <%}%>

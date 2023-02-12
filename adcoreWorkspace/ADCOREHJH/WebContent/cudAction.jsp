@@ -15,7 +15,7 @@
 	         if (successChk == 1) {%>
 	         	alert("success cud action");
 	         <%} else {%> 
-	         	alert("false cud action");
+	         	alert("false cud action 12345");
 	         <%}%>
 	         document.form.submit();
         });
