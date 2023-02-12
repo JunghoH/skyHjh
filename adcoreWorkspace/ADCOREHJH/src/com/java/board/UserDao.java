@@ -27,6 +27,7 @@ public class UserDao {
 			dbID  = "root";
 			dbPassword = "root";
 			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("git test");
 		} catch(Exception ex){
 			ex.printStackTrace();
 		}
