@@ -25,7 +25,9 @@ public class UserDao {
 		try {
 			dbURL = "jdbc:mysql://localhost:3306/HJH";
 			dbID  = "root";
+			System.out.println("git test");
 			dbPassword = "root";
+			System.out.println("git test");
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("git test");
 		} catch(Exception ex){
