@@ -8,7 +8,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>adcore test board</title>
+    <title>adcore test board 12345</title>
     <style type="text/css">
         table{
             border: 1px solid #ccc;
